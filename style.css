@@ -57,12 +57,16 @@ h3 {
     margin-top: none;
 }
 .whiteBox{
-    background-color: rgb(255, 195, 108);
-    flex-grow: 1;
-    height: 20vh;
-    width: 30vw;
+    height: 30vh;
+    width: 45vw;
     margin: 15px;
-    margin-top: none;
+}
+.whiteBox2{
+    display: flex;
+    height: 30vh;
+    width: 45vw;
+    margin: 15px;
+    justify-content: center;
 }
 #images{
     width: auto;
@@ -80,4 +84,10 @@ h3 {
     width: 100vw;
     height: 7vh;
     background-color: rgb(58, 58, 86);
+}
+.container2{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
 }
